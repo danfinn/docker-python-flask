@@ -14,6 +14,13 @@ aa
 a
 ```
 
-This is built using python + flask + docker + docker-compose.  It also uses redis as a web counter.
+This is built using python + flask + docker + docker-compose.  It also uses redis for a hit counter.
 
-If you'd like to run this locally you can clone this repo, `cd docker-python-flask` and `docker-compose up`.  You'll then be able to access the webapp at http://127.0.0.1/.
+## Running
+
+If you'd like to run this locally you can:
+
+* clone this repo
+* `cd docker-python-flask`
+* `docker-compose up`
+* point your browser at http://127.0.0.1/
