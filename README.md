@@ -18,7 +18,7 @@ This is built using python + flask + docker + docker-compose.  It also uses redi
 
 ## Running
 
-If you'd like to run this locally you can:
+If you'd like to run this locally you can :
 
 * clone this repo
 * `cd docker-python-flask`
