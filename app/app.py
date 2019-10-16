@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
-# Basic flask app to serve hello world and keep a connection count in redis
+# Basic flask app that takes input from a form and outputs it as a "sideword" pyramid
 
 from flask import Flask, request, render_template
 from redis import Redis
-import os
+#import os
 
 app = Flask(__name__)
 redis = Redis(host="redis", port=6379)
